@@ -34,6 +34,23 @@
         "label": "ability",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "skills":[
+          {
+            "actions":[
+              "ability.intent.MainAbility2"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.ability.MainAbility2",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "ability",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }
