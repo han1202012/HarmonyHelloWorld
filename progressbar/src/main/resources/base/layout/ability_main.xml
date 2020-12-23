@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <!-- 直线进度条 -->
+    <ProgressBar
+        ohos:id="$+id:progressbar"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="200"
+        ohos:layout_alignment="horizontal_center"
+        ohos:min="0"
+        ohos:max="100"
+        ohos:progress="66"
+        ohos:vice_progress="88"/>
+
+    <!-- 圆形进度条 -->
+    <RoundProgressBar
+        ohos:id="$+id:roundprogressbar"
+        ohos:height="400"
+        ohos:width="400"
+        ohos:top_margin="200"
+        ohos:layout_alignment="horizontal_center"
+        ohos:min="0"
+        ohos:max="100"
+        ohos:progress="66"/>
+
+</DirectionalLayout>
