@@ -1,1 +1,1 @@
-include ':entry', ':ability', ':Text', ':button', ':radiobutton'
+include ':entry', ':ability', ':Text', ':button', ':radiobutton', ':checkbox'
