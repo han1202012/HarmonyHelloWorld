@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Slider
+        ohos:id="$+id:slider"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="200"
+
+        ohos:orientation="horizontal"
+
+        ohos:min="0"
+        ohos:max="100"
+        ohos:progress="66"
+
+        ohos:background_element="#000000"
+        ohos:progress_color="#00FF00"
+
+        ohos:text="更新当前进度值"
+        ohos:text_size="100"/>
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="200"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="更新当前进度值按钮"
+        ohos:text_size="50"/>
+
+    <Text
+        ohos:id="$+id:text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="200"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="当前进度值 : 66"
+        ohos:text_size="100"/>
+
+</DirectionalLayout>
