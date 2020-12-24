@@ -1,1 +1,2 @@
+include ':entry', ':ability', ':Text', ':button', ':radiobutton', ':checkbox', ':progressbar'
 include ':entry', ':ability', ':Text', ':button', ':radiobutton', ':checkbox', ':textfield'
