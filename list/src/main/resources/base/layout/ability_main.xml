@@ -15,4 +15,9 @@
         ohos:text_size="50"
     />
 
+    <ListContainer
+        ohos:id="$+id:listContainer"
+        ohos:height="match_content"
+        ohos:width="match_parent"/>
+
 </DirectionalLayout>
