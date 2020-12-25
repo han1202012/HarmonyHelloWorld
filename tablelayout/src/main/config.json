@@ -1,0 +1,40 @@
+{
+  "app": {
+    "bundleName": "com.example.harmony",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.tablelayout",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "tablelayout",
+      "moduleType": "feature"
+    },
+    "abilities": [
+      {
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.tablelayout.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "TableLayout",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

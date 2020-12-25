@@ -1,1 +1,1 @@
-include ':entry', ':ability', ':Text', ':button', ':radiobutton', ':checkbox', ':progressbar', ':textfield', ':slider', ':list', ':directionallayout'
+include ':entry', ':ability', ':Text', ':button', ':radiobutton', ':checkbox', ':progressbar', ':textfield', ':slider', ':list', ':directionallayout', ':dependentlayout', ':tablelayout'
