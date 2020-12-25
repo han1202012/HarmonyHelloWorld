@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <!-- 最底层 -->
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="800"
+        ohos:width="800"
+        ohos:background_element="#FF0000"
+        ohos:text_size="50"/>
+
+    <!-- 中间层 -->
+    <Text
+        ohos:id="$+id:text2"
+        ohos:height="600"
+        ohos:width="600"
+        ohos:background_element="#00FF00"
+        ohos:text_size="50"/>
+
+    <!-- 最上层 -->
+    <Text
+        ohos:id="$+id:text3"
+        ohos:height="400"
+        ohos:width="400"
+        ohos:background_element="#0000FF"
+        ohos:text_size="50"/>
+
+</StackLayout>
