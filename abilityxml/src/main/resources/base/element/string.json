@@ -7,6 +7,14 @@
     {
       "name": "mainability_description",
       "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "my_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "myability_description",
+      "value": "Java_Phone_Empty Feature Ability"
     }
   ]
 }

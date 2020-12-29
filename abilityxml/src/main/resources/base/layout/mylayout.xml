@@ -6,4 +6,13 @@
     ohos:orientation="vertical"
     ohos:alignment="center">
 
+    <Text
+        ohos:id="$+id:text"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:text="自定义布局 Text 组件"
+        ohos:text_size="100"
+        ohos:text_alignment="center"
+         />
+
 </DirectionalLayout>

@@ -28,6 +28,16 @@
       {
         "orientation": "unspecified",
         "visible": true,
+        "name": "com.example.abilityxml.MyAbility",
+        "icon": "$media:icon",
+        "description": "$string:myability_description",
+        "label": "abilityxml",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "visible": true,
         "name": "com.example.abilityxml.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
